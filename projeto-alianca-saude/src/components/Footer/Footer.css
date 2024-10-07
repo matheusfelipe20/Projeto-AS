@@ -89,29 +89,38 @@
 /* Configuração para tela mobile */
 @media (max-width: 768px) {
     .footer {
-        width: 688px;
-        margin-top: 40px;
+        width: 100%;
+        margin-top: 30px;
         padding-bottom: 20px;
+    }
+
+    .footer-content {
+        margin-left: 50px;
+    }
+
+    .footer-content-1 {
+        margin-left: 60px;
     }
     
     .footer-logo {
-        width: 55px;
-        height: 85px;
+        width: 35px;
+        height: 55px;
     }
     
     .footer-logo-text {
         padding-left: 10px;
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         font-weight: 600;
     }
     
     .footer-title p {
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: 600;
     }
     
     .options-foot-1 {
-        font-size: 0.8rem;
+
+        font-size: 0.6rem;
         font-weight: 600;
     }
     
@@ -119,6 +128,6 @@
         color: var(--c-text-white);
         font-weight: 500;
         margin: 0;
-        font-size: 1rem;
+        font-size: 0.6rem;
     }
 }

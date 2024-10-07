@@ -74,31 +74,35 @@ li:hover .nav-links-dropdown {
 /* Configuração para tela mobile */
 @media (max-width: 768px) {
     
+    .header {
+        padding: 20px 20px 20px 20px;
+    }
+
     .logo a img {
-        height: 80px;
-        margin-left: 10px;
+        height: 40px;
+        margin-left: 0px;
+    }
+
+    .nav-links {
+        padding: 0;
     }
 
     .nav-links li {
+        margin-right: 22px;
         position: relative;
-        
+    }
+
+    .nav-links li a {
+        text-align: center;
     }
       
     .nav-links a {
-        color: var(--c-text-primary);
-        text-decoration: none;
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         font-weight: 600;
-        white-space: nowrap;
-    }
-      
-    .nav-links a:hover {
-        color: var(--c-text-secundary);
+        text-align: center;
     }
     
     .nav-links-dropdown {
-        display: none;
-        position: absolute;
         top: 100%;
         left: 0;
         background-color: var(--background-primary);
@@ -127,5 +131,4 @@ li:hover .nav-links-dropdown {
     .nav-links-dropdown li a:hover {
         color: var(--c-text-secundary);
     }
-
 }

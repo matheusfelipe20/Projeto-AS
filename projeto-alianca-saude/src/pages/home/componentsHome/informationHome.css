@@ -58,37 +58,45 @@
     .informationHome {
         display: flex;
         justify-content: space-evenly;
-        padding-left: 40px;
+        padding-left: 20px;
+    }
+
+    .information-text {
+        padding-right: 10px;
     }
 
     .information-title {
-        font-size: 1.4rem;
+        font-size: 1rem;
         font-weight: 600;
         text-align: center;
-        width: 200px;
+        width: 150px;
         margin: 0;
     }
     
     .information-description {
         font-size: 0.8rem;
-        width: 240px;
+        width: 180px;
     }
     
     .information-button {
-        margin-top: 20px;
-        width: 125px;
-        height: 60px;
-        font-size: 1.2rem;
+        margin-top: 5px;
+        width: 90px;
+        height: 35px;
+        font-size: 0.8rem;
         font-weight: 500;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
         border-radius: 18px;
+    }
+
+    .information-ilustre {
+        width: 150px;
+        height: 220px;
+        overflow: hidden;
+        margin-right: 20px;
     }
     
     .information-img {
         width: 300px;
         height: 220px;
-        margin-left: 20px;
+        object-fit: cover;
     }
 }
