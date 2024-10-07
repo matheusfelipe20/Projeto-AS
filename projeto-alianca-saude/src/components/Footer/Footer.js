@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer">
             <div className="footer-1">
                 <img className="footer-logo" src={imgFooterLogo} alt="Logo Missão com Saúde"/>
-                <p className="footer-logo-text">Missão com Cura</p>
+                <p className="footer-logo-text">Missão com Saúde</p>
             </div>
             <div className="footer-align-right">
                 <div className="footer-content">
@@ -52,7 +52,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="copyright-text">
-                <p>Missão com Cura - Uma ação em prol do Evangelho</p>
+                <p>Missão com Saúde - Uma ação em prol do Evangelho</p>
             </div>
         </div>
     );
