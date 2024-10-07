@@ -2,11 +2,18 @@
 :root {
     --background-primary: #F5F5F5;
 
+    --background-banner: #BFBFBF;
+
     --c-text-primary: #02157D;
-    --c-text-secundary: #ffc759;
+    --c-text-secundary: #fcb527;
     --c-text-white: #FFFFFF;
     --c-text-black: #000000;
+    --c-text-red: #ff0000;
     
+    --c-text-secundary-hover: #ffc551;
+    --c-text-white-hover: #e0e0e0;
+
+
 
 
 }

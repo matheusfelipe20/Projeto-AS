@@ -1,0 +1,44 @@
+
+
+.consultHome {
+    background-color: var(--c-text-primary);
+    width: 100%;
+    height: 340px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.consult-title {
+    color: var(--c-text-secundary);
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.consult-description {
+    color: var(--c-text-white);
+    font-size: 1.5rem;
+    margin-top: -10px;
+    width: 800px;
+    text-align: center;
+}
+
+.consult-button {
+    background: var(--c-text-white);
+    color: var(--c-text-primary);
+    text-decoration: none;
+    width: 260px;
+    height: 80px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 18px;
+    margin-top: 10px;
+}
+
+.consult-button:hover {
+    background-color: var(--c-text-white-hover);
+}

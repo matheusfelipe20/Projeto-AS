@@ -22,7 +22,7 @@ const Header = () => {
                         </ul>
                     </li>
                     <li><a href='/'>Notícias</a></li>
-                    <li><a href='/'>SOS Ajuda</a></li>
+                    <li><a className="sos-ajuda" href='/'>SOS Ajuda</a></li>
                 </ul>
             </nav>
         </header>

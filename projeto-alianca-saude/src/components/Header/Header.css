@@ -7,7 +7,7 @@
 }
 
 .logo a img {
-    height: 120px;
+    height: 80px;
     margin-left: 60px;
 }
 
@@ -25,8 +25,12 @@
 .nav-links a {
     color: var(--c-text-primary);
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 600;
+}
+
+.nav-links .sos-ajuda {
+    color: var(--c-text-red);
 }
   
 .nav-links a:hover {
@@ -47,6 +51,7 @@
 }
 
 .nav-links-dropdown li {
+    margin-top: 5px;
     display: block;
 }
 
@@ -58,9 +63,69 @@ li:hover .nav-links-dropdown {
     color: var(--c-text-primary);
     padding: 10px;
     margin-left: -20px;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 .nav-links-dropdown li a:hover {
     color: var(--c-text-secundary);
+}
+
+
+/* Configuração para tela mobile */
+@media (max-width: 768px) {
+    
+    .logo a img {
+        height: 80px;
+        margin-left: 10px;
+    }
+
+    .nav-links li {
+        position: relative;
+        
+    }
+      
+    .nav-links a {
+        color: var(--c-text-primary);
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 600;
+        white-space: nowrap;
+    }
+      
+    .nav-links a:hover {
+        color: var(--c-text-secundary);
+    }
+    
+    .nav-links-dropdown {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: var(--background-primary);
+        min-width: 120px;
+        min-height: 60px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 10;
+        text-align: left;
+    }
+    
+    .nav-links-dropdown li {
+        display: block;
+    }
+    
+    li:hover .nav-links-dropdown {
+        display: block;
+    }
+    
+    .nav-links-dropdown li a {
+        color: var(--c-text-primary);
+        padding: 10px;
+        margin-left: -20px;
+        font-size: 18px;
+    }
+    
+    .nav-links-dropdown li a:hover {
+        color: var(--c-text-secundary);
+    }
+
 }
