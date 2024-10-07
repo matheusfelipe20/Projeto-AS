@@ -6,3 +6,13 @@
     align-items: center;
     margin: 40px auto;
 }
+
+/* Configuração para tela mobile */
+@media (max-width: 768px) {
+    .divider {
+        margin: 40px;
+        width: 600px;
+        display: flex;
+        align-items: center;
+    }
+}

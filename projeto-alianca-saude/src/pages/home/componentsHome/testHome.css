@@ -69,3 +69,52 @@
 .test-banner-button:hover {
     background-color: var(--c-text-secundary-hover);
 }
+
+/* Configuração para tela mobile */
+@media (max-width: 768px) {
+
+    .testHome {
+        width: 688px;
+    }
+
+    .test-title {
+        font-size: 2rem;
+    }
+
+    .test-description {
+        font-size: 1rem;
+        width: 400px;
+    }
+
+    
+    .test-banner-img {
+        width: 140px;
+        height: 110px;
+        margin-top: -20px;
+    }
+
+    .test-banner {
+        max-width: 100px;
+        max-height: 150px;
+    }
+
+    .test-banner-title {
+        font-size: 0.6rem;
+        font-weight: 600;
+        width: 90px;
+        height: 80px;
+        text-align: center;
+    }
+
+    .test-banner-button {
+        width: 100px;
+        height: 50px;
+        font-size: 0.7rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+        margin-top: 10px;
+    }
+}

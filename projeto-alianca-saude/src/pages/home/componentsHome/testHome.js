@@ -17,28 +17,28 @@ const testHome = () => {
 
             <div className="list-test">
                 <div className="test-banner">
-                    <img className="test-banner-img" src={imgTestImc}></img>
+                    <img className="test-banner-img" src={imgTestImc} alt="Imagem ilustrando calculando o peso"></img>
                     <p className="test-banner-title">
                        Calculadora IMC e Peso Ideal 
                     </p>
                     <a href='/' className="test-banner-button">Analisar</a>
                 </div>
                 <div className="test-banner">
-                    <img className="test-banner-img" src={imgTestCardiovascular}></img>
+                    <img className="test-banner-img" src={imgTestCardiovascular} alt="Imagem ilustrando risco cardiovascular"></img>
                     <p className="test-banner-title">
                         Calculadora de risco cardiovascular
                     </p>
                     <a href='/' className="test-banner-button">Analisar</a>
                 </div>
                 <div className="test-banner">
-                    <img className="test-banner-img" src={imgTestBurnout}></img>
+                    <img className="test-banner-img" src={imgTestBurnout} alt="Imagem ilustrando risco de burnout"></img>
                     <p className="test-banner-title">
                         Risco de Burnout
                     </p>
                     <a href='/' className="test-banner-button">Analisar</a>
                 </div>
                 <div className="test-banner">
-                    <img className="test-banner-img" src={imgTestVocal}></img>
+                    <img className="test-banner-img" src={imgTestVocal} alt="Imagem ilustrando risco de fadiga vocal"></img>
                     <p className="test-banner-title">
                         Avaliação de índice de fadiga vocal 
                     </p>

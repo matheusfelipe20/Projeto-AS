@@ -18,7 +18,7 @@ const informationHome = () => {
                 </a>
             </div>
             <div className="information-ilustre">
-                <img className="information-img" src={imgInformationHome}></img>
+                <img className="information-img" src={imgInformationHome} alt="Imagem para exemplificar a Higiene do Sono"></img>
             </div>
            
         </div>

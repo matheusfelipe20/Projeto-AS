@@ -27,11 +27,6 @@
     color: var(--c-text-secundary);
 }
 
-
-
-
-/*  */
-
 .footer-align-right {
     display: flex;
     margin-bottom: 50px;
@@ -89,4 +84,41 @@
     color: var(--c-text-white);
     font-weight: 500;
     margin: 0;
+}
+
+/* Configuração para tela mobile */
+@media (max-width: 768px) {
+    .footer {
+        width: 688px;
+        margin-top: 40px;
+        padding-bottom: 20px;
+    }
+    
+    .footer-logo {
+        width: 55px;
+        height: 85px;
+    }
+    
+    .footer-logo-text {
+        padding-left: 10px;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    
+    .footer-title p {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    .options-foot-1 {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+    
+    .copyright-text p {
+        color: var(--c-text-white);
+        font-weight: 500;
+        margin: 0;
+        font-size: 1rem;
+    }
 }
