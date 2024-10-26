@@ -1,10 +1,10 @@
 import React from "react";
 
 import './testHome.css';
-import imgTestBurnout from '../../../assets/testBurnout.png';
-import imgTestCardiovascular from '../../../assets/testCardiovascular.png'; 
-import imgTestImc from '../../../assets/testImc.png';
-import imgTestVocal from '../../../assets/testVocal.png'; 
+import imgTestBurnout from '../../../../assets/homepage/testBurnout.png';
+import imgTestCardiovascular from '../../../../assets/homepage/testCardiovascular.png'; 
+import imgTestImc from '../../../../assets/homepage/testImc.png';
+import imgTestVocal from '../../../../assets/homepage/testVocal.png'; 
 
 const testHome = () => {
     return(

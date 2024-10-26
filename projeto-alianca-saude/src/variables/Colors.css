@@ -10,8 +10,14 @@
     --c-text-black: #000000;
     --c-text-red: #ff0000;
     
-    --c-text-secundary-hover: #ffc551;
+    --c-text-primary-hover: #2a44da;
+    --c-text-secundary-hover: #f3a200;
     --c-text-white-hover: #e0e0e0;
+    --backgound-button-primary-hover: #0f1b5f;
+
+    --backgound-button-primary: #223ac4;
+
+    
 
 
 

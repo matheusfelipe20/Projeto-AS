@@ -1,7 +1,7 @@
 import React from "react";
 
 import './introHome.css';
-import imgIntroHome from '../../../assets/introHome.png';
+import imgIntroHome from '../../../../assets/homepage/introHome.png';
 
 const introHome = () => {
     return(

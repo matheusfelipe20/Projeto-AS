@@ -1,0 +1,168 @@
+.projectAbout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 2.2rem;
+    color: var(--c-text-primary);
+    margin-bottom: 10px;
+}
+
+.about-subtitle {
+    font-size: 1.1rem;
+    color: var(--c-text-primary);
+    margin-bottom: 15px;
+    margin-top: 0px;
+    font-weight: 400;
+}
+
+.about-painel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.about-painel-text {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.logoAbout {
+    width: 350px;
+    height: auto;
+}
+
+.about-text-title {
+    font-size: 1.2rem;
+    color: var(--c-text-primary);
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.about-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.about-text-bold {
+    font-size: 0.8rem;
+    color: var(--c-text-black);
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+}
+
+.about-spacer {
+    width: 100%;
+    height: 160px;
+    background-color: var(--c-text-primary);
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.spacer-text {
+    color: var(--c-text-secundary);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.spacer-subtext {
+    color: var(--c-text-white);
+    font-size: 1rem;
+}
+
+/* Estilo para dispositivos móveis */
+@media (max-width: 768px) {
+    .about-painel {
+        flex-direction: column;
+    }
+
+    .about-title {
+        font-size: 1.3rem;
+        color: var(--c-text-primary);
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .about-subtitle {
+        font-size: 0.7rem;
+        color: var(--c-text-primary);
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-weight: 400;
+    }
+    
+    .about-painel-text {
+        flex: 1;
+        text-align: left;
+        padding-right: 0px;
+    }
+    
+    .logoAbout {
+        width: 250px;
+        height: auto;
+        margin-top: 15px;
+    }
+    
+    .about-text-title {
+        font-size: 0.7rem;
+        color: var(--c-text-primary);
+        margin-top: 5px;
+        margin-bottom: 10px;
+        text-align: left;
+        font-weight: 600;
+    }
+    
+    .about-text {
+        font-size: 0.6rem;
+        color: #666;
+        margin-bottom: 15px;
+        line-height: 1.6;
+        text-align: justify;
+    }
+    
+    .about-text-bold {
+        font-size: 0.6rem;
+        color: var(--c-text-black);
+        font-weight: bold;
+        margin-top: 15px;
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .about-spacer {
+        width: 100%;
+        height: 110px;
+        background-color: var(--c-text-primary);
+        margin-top: 0px;
+    }
+    
+    .spacer-text {
+        color: var(--c-text-secundary);
+        font-size: 0.8rem;
+        font-weight: 600;
+        padding: 0px 20px 0px 20px;
+        margin-bottom: 10px;
+    }
+    
+    .spacer-subtext {
+        color: var(--c-text-white);
+        font-size: 0.6rem;
+    }
+}
