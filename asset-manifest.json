@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Projeto-AS/static/css/main.8126e0a0.css",
-    "main.js": "/Projeto-AS/static/js/main.3284b6a0.js",
+    "main.css": "/Projeto-AS/static/css/main.7a4a0e91.css",
+    "main.js": "/Projeto-AS/static/js/main.521f7e69.js",
     "static/js/453.1015e278.chunk.js": "/Projeto-AS/static/js/453.1015e278.chunk.js",
     "static/media/testVocal.png": "/Projeto-AS/static/media/testVocal.15c0d200e7daba2d0f5f.png",
     "static/media/testCardiovascular.png": "/Projeto-AS/static/media/testCardiovascular.26a6e0c00f90b7e12276.png",
@@ -9,14 +9,21 @@
     "static/media/testImc.png": "/Projeto-AS/static/media/testImc.ad36697776ee65cdb15f.png",
     "static/media/testBurnout.png": "/Projeto-AS/static/media/testBurnout.80f37f7bd33f36699c24.png",
     "static/media/introHome.png": "/Projeto-AS/static/media/introHome.5d3f6ef94108d324ce8c.png",
+    "static/media/logo-about.png": "/Projeto-AS/static/media/logo-about.ef7c16ebecdf665b05ea.png",
+    "static/media/not-found.png": "/Projeto-AS/static/media/not-found.f64b5e68aff88881bdaf.png",
+    "static/media/profile-test.png": "/Projeto-AS/static/media/profile-test.d9b8ed20f5e443a449a0.png",
     "static/media/logo.png": "/Projeto-AS/static/media/logo.8395a6dde930e1b702a4.png",
+    "static/media/profile-test1.png": "/Projeto-AS/static/media/profile-test1.88cf5c811eb3fbb184ab.png",
+    "static/media/linkedin.svg": "/Projeto-AS/static/media/linkedin.77285786dd494fa73b9c29540db53830.svg",
     "index.html": "/Projeto-AS/index.html",
-    "main.8126e0a0.css.map": "/Projeto-AS/static/css/main.8126e0a0.css.map",
-    "main.3284b6a0.js.map": "/Projeto-AS/static/js/main.3284b6a0.js.map",
+    "static/media/user.svg": "/Projeto-AS/static/media/user.55f31d06f45949c4b436bfe6584dee50.svg",
+    "static/media/email.svg": "/Projeto-AS/static/media/email.021c9e684c3a9a24ec784f7b9a000938.svg",
+    "main.7a4a0e91.css.map": "/Projeto-AS/static/css/main.7a4a0e91.css.map",
+    "main.521f7e69.js.map": "/Projeto-AS/static/js/main.521f7e69.js.map",
     "453.1015e278.chunk.js.map": "/Projeto-AS/static/js/453.1015e278.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8126e0a0.css",
-    "static/js/main.3284b6a0.js"
+    "static/css/main.7a4a0e91.css",
+    "static/js/main.521f7e69.js"
   ]
 }
