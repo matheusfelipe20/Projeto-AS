@@ -14,12 +14,10 @@ const Header = () => {
             </div>
             <nav>
                 <ul className="nav-links">
-                    <li><Link className="nav-options" to='/'>Check UP</Link></li>
-                    <li>
-                        <Link className="nav-options" to='/about'>Sobre</Link>
-                    </li>
-                    <li><Link className="nav-options" to='/'>Notícias</Link></li>
-                    <li><Link className="sos-ajuda" to='/'>SOS Ajuda</Link></li>
+                    <li><Link className="nav-options" to='/'>Consultas</Link></li>
+                    <li><Link className="nav-options" to='/'>Testes</Link></li>
+                    <li><Link className="nav-options" to='/about'>Sobre</Link></li>
+                    <li><Link className="sos-ajuda" to='/'>Check UP</Link></li>
                 </ul>
             </nav>
         </header>

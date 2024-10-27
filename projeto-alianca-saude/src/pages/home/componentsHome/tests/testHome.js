@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 import './testHome.css';
 import imgTestBurnout from '../../../../assets/homepage/testBurnout.png';
@@ -19,30 +20,30 @@ const testHome = () => {
                 <div className="test-banner">
                     <img className="test-banner-img" src={imgTestImc} alt="Imagem ilustrando calculando o peso"></img>
                     <p className="test-banner-title">
-                       Calculadora IMC e Peso Ideal 
+                       Calculadora IMC
                     </p>
-                    <a href='/' className="test-banner-button">Analisar</a>
+                    <Link className="test-banner-button" to='/test$medic/IMC'>Analisar</Link>
                 </div>
                 <div className="test-banner">
                     <img className="test-banner-img" src={imgTestCardiovascular} alt="Imagem ilustrando risco cardiovascular"></img>
                     <p className="test-banner-title">
                         Calculadora de risco cardiovascular
                     </p>
-                    <a href='/' className="test-banner-button">Analisar</a>
+                    <Link className="test-banner-button" to='/'>Analisar</Link>
                 </div>
                 <div className="test-banner">
                     <img className="test-banner-img" src={imgTestBurnout} alt="Imagem ilustrando risco de burnout"></img>
                     <p className="test-banner-title">
                         Risco de Burnout
                     </p>
-                    <a href='/' className="test-banner-button">Analisar</a>
+                    <Link className="test-banner-button" to='/'>Analisar</Link>
                 </div>
                 <div className="test-banner">
                     <img className="test-banner-img" src={imgTestVocal} alt="Imagem ilustrando risco de fadiga vocal"></img>
                     <p className="test-banner-title">
                         Avaliação de índice de fadiga vocal 
                     </p>
-                    <a href='/' className="test-banner-button">Analisar</a>
+                    <Link className="test-banner-button" to='/'>Analisar</Link>
                 </div>
             </div>
         </div>

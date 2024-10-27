@@ -9,7 +9,7 @@ const NotFound = () => {
             <img className="logo-notfound" src={imgNotFound} alt="Erro 404 - Página Não Encontrada" />
             <h1>Página Não Encontrada</h1>
             <p>Desculpe, a página que você está procurando não existe.</p>
-            <Link to="/" className="back-home">Voltar para a página inicial</Link>
+            <Link to="/home" className="back-home">Voltar para a página inicial</Link>
         </div>
     );
 };

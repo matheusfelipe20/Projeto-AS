@@ -7,6 +7,7 @@ import About from './pages/about/About';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import NotFound from './pages/found/NotFound';
+import TestMedicIMC from './pages/tests/imc/TestIMC';
 
 function App() {
   return (
@@ -17,6 +18,12 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/Projeto-AS" element={<Navigate to="/home" />} />
           <Route path="/about" element={<About />} />
+
+          {/* Routes of tests medic */}
+
+          {/* <Route path="/test" element={<Test />} /> */}
+          <Route path="/test$medic/IMC" element={<TestMedicIMC/>} />
+
 
           <Route path="*" element={<NotFound />} />
         </Routes>
