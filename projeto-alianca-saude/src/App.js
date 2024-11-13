@@ -16,12 +16,10 @@ function App() {
         <Header />
         <Routes>
           <Route path="/Projeto-AS" element={<Home />} />
-          {/* <Route path="/Projeto-AS" element={<Navigate to="/home/" />} /> */}
           <Route path="/Projeto-AS/about/" element={<About />} />
 
-          {/* Routes of tests medic */}
 
-          {/* <Route path="/test" element={<Test />} /> */}
+          {/* Routes of tests medic */}
           <Route path="/Projeto-AS/test$medic/IMC/" element={<TestMedicIMC/>} />
 
 
