@@ -1,5 +1,4 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import './variables/Colors.css';
 import Home from './pages/home/Home';
@@ -11,17 +10,15 @@ import TestMedicIMC from './pages/tests/imc/TestIMC';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Projeto-AS">
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/Projeto-AS" element={<Home />} />
-          <Route path="/Projeto-AS/about/" element={<About />} />
-
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
 
           {/* Routes of tests medic */}
-          <Route path="/Projeto-AS/test$medic/IMC/" element={<TestMedicIMC/>} />
-
+          <Route path="/test$medic/IMC/" element={<TestMedicIMC/>} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>
