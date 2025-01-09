@@ -1,7 +1,7 @@
 import React from "react";
 
 import './introHome.css';
-import imgIntroHome from '../../../../assets/homepage/introHome.png';
+import imgIntroHome from '../../../../assets/homepage/intro/introHome.png';
 
 const introHome = () => {
     return(
@@ -11,14 +11,17 @@ const introHome = () => {
                     Este é um espaço dedicado ao cuidado de pastores e missionários(as).
                 </p>
                 <p className="description-intro">
-                Sabemos que o ministério exige dedicação, mas é essencial cuidar da saúde física, 
-                mental e espiritual. Nosso propósito é ajudá-lo a renovar suas forças e encontrar 
-                equilíbrio entre a missão e o bem-estar, para seguir firme na sua jornada de amor 
-                e serviço.
+                Sabemos que o ministério exige uma dedicação constante e intensa, muitas vezes demandando grande esforço físico, mental e espiritual. 
+                Porém, cuidar de si mesmo é fundamental para continuar servindo com excelência. 
+                É imprescindível preservar sua saúde em todas as dimensões – física, emocional e espiritual – para que sua caminhada seja plena e sustentável.
+                </p>
+                <p className="description-intro">
+                Estamos aqui para oferecer apoio, orientação e recursos que fortalecerão tanto o seu corpo quanto a sua mente. 
+                Assim, você poderá continuar cumprindo sua missão com alegria, saúde e um vigor renovado que refletirá o amor e o cuidado de Deus em sua vida.
                 </p>
             </div>
             <div className="intro-img">
-                <img className="img-text" src={imgIntroHome} alt="Imagem coração saudável"/>
+                <img className="img-text" src={imgIntroHome} alt="Imagem de Introdução - Coração Saudável"/>
             </div>
         </div>
     );  

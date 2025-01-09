@@ -1,0 +1,203 @@
+
+.calculatorIMC-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.calculatorIMC-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculatorIMC-title {
+    font-size: 1.8rem;
+    color: var(--c-text-primary);
+    font-weight: 600;
+}
+
+.calculatorIMC-form {
+    width: 300px;
+
+}
+
+.calculatorIMC-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.calculatorIMC-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.calculatorIMC-input label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.calculatorIMC-input input {
+    width: 94%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.calculatorIMC-button {
+    border-radius: 8px;
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    background-color: var(--background-button-primary);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.calculatorIMC-button:hover {
+    background-color: var(--background-button-primary-hover);
+}
+
+.result-panel {
+    width: 350px;
+    height: 110px;
+    border-radius: 10px;
+    border: 1px solid #02157D;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.result {
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+.result-imc {
+    color: inherit; 
+    font-weight: bold; 
+}
+
+.result.baixo .result-imc,
+.result.baixo .result-category {
+    color: #0099ff; 
+}
+
+.result.normal .result-imc,
+.result.normal .result-category {
+    color: green; 
+}
+
+.result.excesso .result-imc,
+.result.excesso .result-category {
+    color: orange; 
+}
+
+.result.obesidade .result-imc,
+.result.obesidade .result-category {
+    color: red; 
+}
+
+.result.obesidade-extrema .result-imc,
+.result.obesidade-extrema .result-category {
+    color: darkred; 
+}
+
+
+/* Estilo para dispositivos móveis */
+@media (max-width: 768px) {
+    .calculatorIMC-container {
+        margin-top: 0px;
+    }
+  
+    .calculatorIMC-panel {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .calculatorIMC-title {
+        font-size: 1.2rem;
+        color: var(--c-text-primary);
+        font-weight: 600;
+        margin-top: 40px;
+    }
+
+    .calculatorIMC-form {
+        width: 70%;
+    }
+
+    .calculatorIMC-select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .calculatorIMC-input {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 15px;
+    }
+
+    .calculatorIMC-input label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        font-size: 0.8rem;
+    }
+
+    .calculatorIMC-input input {
+        width: 94%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .calculatorIMC-button {
+        border-radius: 8px;
+        width: 100%;
+        height: 50px;
+        color: #fff;
+        background-color: var(--background-button-primary);
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    .calculatorIMC-button:hover {
+        background-color: var(--background-button-primary-hover);
+    }
+
+    .result-panel {
+        width: 60%;
+        height: 80px;
+        border-radius: 20px;
+        border: 2px solid black;
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
+        margin-top: 25px;
+    }
+
+    .result {
+        padding: 5px;
+        border-radius: 5px;
+        color: black;
+        text-align: justify;
+        font-size: 0.8rem;
+    }
+
+}

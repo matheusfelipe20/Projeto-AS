@@ -1,7 +1,7 @@
 .consultHome {
     background-color: var(--c-text-primary);
     width: 100%;
-    height: 340px;
+    height: 245px;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -10,15 +10,15 @@
 
 .consult-title {
     color: var(--c-text-secundary);
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     font-weight: 500;
 }
 
 .consult-description {
     color: var(--c-text-white);
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-top: -10px;
-    width: 800px;
+    max-width: 780px;
     text-align: center;
 }
 
@@ -26,19 +26,22 @@
     background: var(--c-text-white);
     color: var(--c-text-primary);
     text-decoration: none;
-    width: 260px;
-    height: 80px;
-    font-size: 1.5rem;
+    width: 200px;
+    height: 60px;
+    font-size: 1.2rem;
     font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    border-radius: 18px;
+    border-radius: 8px;
     margin-top: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .consult-button:hover {
-    background-color: var(--c-text-white-hover);
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(103, 58, 183, 0.3);
+    
 }
 
 /* Configuração para tela mobile */
@@ -59,11 +62,10 @@
     }
 
     .consult-button {
-        width: 130px;
-        height: 50px;
-        font-size: 0.8rem;
-        font-weight: 700;
-        border-radius: 18px;
+        width: 150px;
+        height: 45px;
+        font-size: 1rem;
+        border-radius: 8px;
         margin-top: 15px;
     }
 }

@@ -1,0 +1,246 @@
+.equipAbout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.equipAbout-title {
+    font-size: 2.2rem;
+    color: var(--c-text-primary);
+    margin-bottom: 10px;
+}
+
+.equipAbout-subtitle {
+    font-size: 1.1rem;
+    color: var(--c-text-primary);
+    margin-bottom: 15px;
+    margin-top: 0px;
+    font-weight: 400;
+}
+
+.equipAbout-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.equipAbout-panel-text {
+    flex: 1;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.equipAbout-text-title {
+    font-size: 1.2rem;
+    color: var(--c-text-primary);
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.equipAbout-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.equipAbout-panel {
+    display: flex;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 0px;
+    flex-direction: column;
+}
+
+.equipAbout-text-title {
+    font-size: 1.2rem;
+    color: var(--c-text-primary);
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: 600;
+}
+
+/* Estilo dos card's */
+.equipAbout-panel-card-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0px 45px 0px 45px;
+}
+
+/* Esconde a barra de rolagem no Navegador*/
+.equipAbout-panel-card::-webkit-scrollbar {
+    display: none;
+}
+
+/* Esconde a barra de rolagem no Firefox */
+.equipAbout-panel-card {
+    scrollbar-width: none;
+}
+  
+.equipAbout-panel-card {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    padding-top: 10px;
+}
+  
+.equipAbout-card {
+    flex: 0 0 auto;
+    width: 200px;
+    height: 360px;
+}
+  
+/* Botões de navegação */
+.equipAbout-carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: #000;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+  
+.equipAbout-carousel-button:hover {
+    opacity: 1;
+}
+  
+.equipAbout-carousel-button.prev {
+    left: 0;
+}
+  
+.equipAbout-carousel-button.next {
+    right: 0;
+}
+
+.equipAbout-card-title {
+    color: var(--c-text-primary);
+    margin: 0px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    font-weight: 600;
+}
+
+.equipAbout-card-name {
+    margin: 0px;
+    padding: 5px 0px 10px 0px;
+    color: black;
+    font-size: 0.9rem;
+}
+
+.equipAbout-card-img {
+    width: 100%;
+    height: 100%;
+}
+
+.equipAbout-card-model {
+    background-color: #a8a8a8;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.equipAbout-card-socials {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.equipAbout-social-icon {
+    width: 32px;
+    height: 32px;
+    transition: stroke 0.4s ease;
+}
+
+.equipAbout-card-socials a:hover .equipAbout-social-icon {
+    filter: brightness(0.4); 
+}
+
+
+
+/* Estilo para dispositivos móveis */
+@media (max-width: 768px) {
+
+    .equipAbout-title {
+        font-size: 1.3rem;
+        color: var(--c-text-primary);
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .equipAbout-subtitle {
+        font-size: 0.7rem;
+        color: var(--c-text-primary);
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-weight: 400;
+    }
+
+    .equipAbout-panel {
+        flex-direction: column;
+    }
+
+    .equipAbout-panel-text {
+        flex: 1;
+        text-align: left;
+        padding-right: 0px;
+    }
+        
+    .equipAbout-text {
+        font-size: 0.6rem;
+        text-indent: 20px;
+    }
+
+    .equipAbout-panel {
+        margin: 0;
+    }
+
+    .equipAbout-text-title {
+        font-size: 0.7rem;
+    }
+
+    .equipAbout-panel-card {
+        gap: 18px;
+    }
+
+    /* Estilo dos card's */
+    .equipAbout-card {
+        width: 120px;
+        height: 220px;
+        max-width: 100%;
+    }
+
+    .equipAbout-card-title {
+        font-size: 0.7rem;
+    }
+
+    .equipAbout-card-name {
+        font-size: 0.6rem;
+    }
+
+    .equipAbout-social-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    .equipAbout-carousel-button {
+        display: none;
+    }
+}

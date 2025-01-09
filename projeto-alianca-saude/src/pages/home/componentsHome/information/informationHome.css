@@ -20,7 +20,7 @@
 }
 
 .information-description {
-    color: var(--c-text-secundary);
+    color: var(--c-text-black);
     font-size:1.2rem;
     width: 480px;
     text-align: justify;

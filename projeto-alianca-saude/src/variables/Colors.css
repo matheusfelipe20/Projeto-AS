@@ -2,22 +2,31 @@
 
 :root {
     --background-primary: #ffffff;
-
-    --background-banner: #BFBFBF;
+    --background-banner: #02157D;
+    --background-footer: #23272a;
 
     --c-text-primary: #02157D;
+    --c-text-primary-hover: #2a44da;
     --c-text-secundary: #fcb527;
+    --c-text-secundary-hover: #f3a200;
+
+
     --c-text-white: #FFFFFF;
     --c-text-black: #000000;
     --c-text-red: #ff0000;
-    
-    --c-text-primary-hover: #2a44da;
-    --c-text-secundary-hover: #f3a200;
-    --c-text-white-hover: #e0e0e0;
+
+
     --background-button-primary-hover: #0c1758;
 
     --background-button-primary: #02157D;
 
+
+
+    --c-header-link: #02157D;
+    --c-header-link-hover: #000838;
+
+    --c-header-link-contrast: #ff0000;
+    --c-header-link-contrast-hover: #b60000;
     
 
 

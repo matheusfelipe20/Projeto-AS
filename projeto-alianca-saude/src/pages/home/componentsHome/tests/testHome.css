@@ -6,18 +6,23 @@
 
 .test-title {
     color: var(--c-text-primary);
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     font-weight: 500;
     text-align: center;
     margin: 20px 0px 0px 0px;
 }
 
 .test-description {
-    color: var(--c-text-primary);
-    font-size: 1.2rem;
+    color: var(--c-text-black);
+    font-size: 1rem;
     font-weight: 600;
     text-align: center;
     width: 800px;
+}
+
+.test-obs {
+    margin-top: 5px;
+    font-weight: 400;
 }
 
 .list-test {
@@ -45,11 +50,11 @@
 }
 
 .test-banner-title {
-    font-size: 1rem;
-    width: 180px;
+    font-size: 0.9rem;
+    width: 200px;
     height: 80px;
     text-align: center;
-    color: #000000;
+    color: #fff;
 }
 
 .test-banner-button {
@@ -95,24 +100,27 @@
     }
 
     .test-banner {
-        max-width: 100px;
-        max-height: 150px;
+        max-width: 120px;
+        max-height: 180px;
+        margin: 10px;
     }
 
     .test-banner-title {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         font-weight: 600;
-        width: 90px;
+        width: 130px;
         height: 80px;
         text-align: center;
+        margin-bottom: 10px;
+        margin-top: 8px;
     }
 
     .test-banner-button {
         width: 100px;
-        height: 80px;
-        font-size: 0.7rem;
+        height: 50px;
+        font-size: 0.6rem;
         font-weight: 700;
-        border-radius: 18px;
-        margin-top: 10px;
+        border-radius: 4px;
+        margin-top: 0px;
     }
 }
