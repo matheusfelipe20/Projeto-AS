@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/Projeto-AS/static/css/main.ce51ad86.css",
-    "main.js": "/Projeto-AS/static/js/main.b1083ebc.js",
+    "main.css": "/Projeto-AS/static/css/main.5a526398.css",
+    "main.js": "/Projeto-AS/static/js/main.57c6adef.js",
     "static/js/453.1015e278.chunk.js": "/Projeto-AS/static/js/453.1015e278.chunk.js",
-    "static/media/testVocal.png": "/Projeto-AS/static/media/testVocal.15c0d200e7daba2d0f5f.png",
-    "static/media/testCardiovascular.png": "/Projeto-AS/static/media/testCardiovascular.26a6e0c00f90b7e12276.png",
-    "static/media/imc-intro.png": "/Projeto-AS/static/media/imc-intro.000fa00e449193e25ee5.png",
-    "static/media/informationSleep.png": "/Projeto-AS/static/media/informationSleep.e330eeaaddd97717ac2e.png",
-    "static/media/testImc.png": "/Projeto-AS/static/media/testImc.ad36697776ee65cdb15f.png",
-    "static/media/testBurnout.png": "/Projeto-AS/static/media/testBurnout.80f37f7bd33f36699c24.png",
+    "static/media/united-states.svg": "/Projeto-AS/static/media/united-states.9215185759fc35c0da4c203add728545.svg",
     "static/media/imc-info.png": "/Projeto-AS/static/media/imc-info.7b23745eeff8e72442ea.png",
-    "static/media/introHome.png": "/Projeto-AS/static/media/introHome.5d3f6ef94108d324ce8c.png",
-    "static/media/logo-about.png": "/Projeto-AS/static/media/logo-about.ef7c16ebecdf665b05ea.png",
-    "static/media/not-found.png": "/Projeto-AS/static/media/not-found.f64b5e68aff88881bdaf.png",
+    "static/media/brazil.svg": "/Projeto-AS/static/media/brazil.a858351f6f205249b19d3817c7c15f91.svg",
+    "static/media/introHome.png": "/Projeto-AS/static/media/introHome.978380c036f68fce2342.png",
+    "static/media/imc-intro.png": "/Projeto-AS/static/media/imc-intro.db3f48de95aeb0b60ea8.png",
+    "static/media/dom-logo.png": "/Projeto-AS/static/media/dom-logo.8edd60312e5e3108d592.png",
+    "static/media/logo-about.png": "/Projeto-AS/static/media/logo-about.22fa9023ce5b5a3883be.png",
+    "static/media/testVocal.png": "/Projeto-AS/static/media/testVocal.2f925eeef699b17e8a46.png",
     "static/media/profile-test.png": "/Projeto-AS/static/media/profile-test.d9b8ed20f5e443a449a0.png",
     "static/media/logo.png": "/Projeto-AS/static/media/logo.8395a6dde930e1b702a4.png",
     "static/media/profile-test1.png": "/Projeto-AS/static/media/profile-test1.88cf5c811eb3fbb184ab.png",
+    "static/media/instagram.svg": "/Projeto-AS/static/media/instagram.b8b6f4c23801158808f078713bf0b1e2.svg",
+    "static/media/gmail.svg": "/Projeto-AS/static/media/gmail.8ef3d3d32dc3a205fbd4d0ad8967cc0b.svg",
     "static/media/linkedin.svg": "/Projeto-AS/static/media/linkedin.77285786dd494fa73b9c29540db53830.svg",
+    "static/media/facebook.svg": "/Projeto-AS/static/media/facebook.0dab6640f166f1d81a7b13a1c3b32b5d.svg",
     "index.html": "/Projeto-AS/index.html",
     "static/media/user.svg": "/Projeto-AS/static/media/user.55f31d06f45949c4b436bfe6584dee50.svg",
     "static/media/email.svg": "/Projeto-AS/static/media/email.021c9e684c3a9a24ec784f7b9a000938.svg",
-    "main.ce51ad86.css.map": "/Projeto-AS/static/css/main.ce51ad86.css.map",
-    "main.b1083ebc.js.map": "/Projeto-AS/static/js/main.b1083ebc.js.map",
+    "main.5a526398.css.map": "/Projeto-AS/static/css/main.5a526398.css.map",
+    "main.57c6adef.js.map": "/Projeto-AS/static/js/main.57c6adef.js.map",
     "453.1015e278.chunk.js.map": "/Projeto-AS/static/js/453.1015e278.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce51ad86.css",
-    "static/js/main.b1083ebc.js"
+    "static/css/main.5a526398.css",
+    "static/js/main.57c6adef.js"
   ]
 }
