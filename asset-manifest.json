@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/Projeto-AS/static/css/main.d3e8e8d2.css",
-    "main.js": "/Projeto-AS/static/js/main.d574c2c7.js",
+    "main.js": "/Projeto-AS/static/js/main.39b8336b.js",
     "static/js/453.1015e278.chunk.js": "/Projeto-AS/static/js/453.1015e278.chunk.js",
     "static/media/united-states.svg": "/Projeto-AS/static/media/united-states.9215185759fc35c0da4c203add728545.svg",
-    "static/media/icna-logo.png": "/Projeto-AS/static/media/icna-logo.048ca8a4a92a2adc6fbd.png",
+    "static/media/icna-logo.png": "/Projeto-AS/static/media/icna-logo.f6a17304b5582ab86649.png",
     "static/media/imc-info.png": "/Projeto-AS/static/media/imc-info.7b23745eeff8e72442ea.png",
     "static/media/brazil.svg": "/Projeto-AS/static/media/brazil.a858351f6f205249b19d3817c7c15f91.svg",
     "static/media/introHome.png": "/Projeto-AS/static/media/introHome.978380c036f68fce2342.png",
@@ -22,11 +22,11 @@
     "static/media/user.svg": "/Projeto-AS/static/media/user.55f31d06f45949c4b436bfe6584dee50.svg",
     "static/media/email.svg": "/Projeto-AS/static/media/email.021c9e684c3a9a24ec784f7b9a000938.svg",
     "main.d3e8e8d2.css.map": "/Projeto-AS/static/css/main.d3e8e8d2.css.map",
-    "main.d574c2c7.js.map": "/Projeto-AS/static/js/main.d574c2c7.js.map",
+    "main.39b8336b.js.map": "/Projeto-AS/static/js/main.39b8336b.js.map",
     "453.1015e278.chunk.js.map": "/Projeto-AS/static/js/453.1015e278.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3e8e8d2.css",
-    "static/js/main.d574c2c7.js"
+    "static/js/main.39b8336b.js"
   ]
 }
