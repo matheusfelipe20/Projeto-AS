@@ -3,9 +3,13 @@
     width: 100%;
     height: 245px;
     margin-top: 30px;
+}
+
+.consult-panel{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 80px 0px 80px;
 }
 
 .consult-title {
@@ -50,6 +54,10 @@
     .consultHome {
         width: 100%;
         height: 200px;
+    }
+
+    .consult-panel{
+        padding: 0px 20px 0px 20px;
     }
 
     .consult-title {

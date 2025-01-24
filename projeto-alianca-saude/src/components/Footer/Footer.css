@@ -11,7 +11,8 @@
     display: flex;
     margin-top: 20px;
     justify-content: flex-start;
-    padding: 0px 40px 30px 40px;
+    padding: 0px 80px;
+    flex-wrap: wrap;
 }
 
 .footer-introducion {
@@ -78,7 +79,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 0px 40px 0px 40px;
+    padding: 0px 80px;
     margin-top: -25px;
 }
 
@@ -87,27 +88,10 @@
     height: 80px;
 }
 
-.footer-title-init {
-    font-size: 2.0rem;
-    margin-left: 10px;
-    color: var(--c-text-secundary);
-    font-weight: 500;
-}
-
-.footer-title-mid {
-    margin-left: 8px;
-    font-size: 1.8rem;
-    font-weight: 500;
-    background: linear-gradient(to right, var(--c-text-secundary), var(--c-text-white));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .footer-title-end {
     font-size: 2.0rem;
     margin-left: 8px;
-    color: var(--c-text-white);
+    color: var(--c-text-secundary);
     font-weight: 500;
 }
 
@@ -134,7 +118,6 @@
 
     .footer-align-right {
         padding: 0px 20px 15px 20px;
-        flex-wrap: wrap;
     }
 
     .footer-content {
@@ -169,14 +152,6 @@
 
     .footer-end-panel {
         padding: 0px 20px 15px 20px;
-    }
-
-    .footer-title-init {
-        font-size: 1.5rem;
-    }
-    
-    .footer-title-mid {
-        font-size: 1.3rem;
     }
     
     .footer-title-end {

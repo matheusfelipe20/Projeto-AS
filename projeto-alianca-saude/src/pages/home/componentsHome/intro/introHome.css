@@ -1,5 +1,5 @@
 .introHome {
-    padding-top: 30px;
+    padding: 10px 80px 0px 80px;
     display: flex;
     justify-content: center;
 }
@@ -28,12 +28,18 @@
     align-items: center;
 }
 
+.img-text {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
 /* Configuração para tela mobile */
 @media (max-width: 768px) {
     .introHome {
-        padding: 0px;
+        padding: 0px 20px 0px 20px;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
     .title-intro {
@@ -46,24 +52,24 @@
 
     .text-intro {
         text-align: left;
-        width: 50%;
     }
 
     .description-intro {
         margin-top: 2px;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         min-width: 50px;
-        max-width: 200px;
+        max-width: 220px;
         text-indent: 20px;
     }
 
     .intro-img {
-        margin-top: 0px;
-        margin-left: -20px;
+        margin-left: 0px;
+        justify-content: flex-end;
     }
 
     .img-text {
-        width: 140px;
-        height: 70px;
+        width: 88%;
+        max-width: 340px;
+        height: auto;
     }
 }

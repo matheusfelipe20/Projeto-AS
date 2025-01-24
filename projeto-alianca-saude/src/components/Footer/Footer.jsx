@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import './footer.css';
 import imgFooterLogo from '../../assets/logo/logo-secundary.png';
-import imgCollaboratorsDOMLogo from '../../assets/collaborators/dom-logo.png';
+// import imgCollaboratorsDOMLogo from '../../assets/collaborators/dom-logo.png';
+import imgCollaboratorsICNALogo from '../../assets/collaborators/icna-logo.png';
 import iconEmail from "../../assets/icons/apps/gmail.svg";
 import iconInstagram from "../../assets/icons/apps/instagram.svg";
 import iconFacebook from "../../assets/icons/apps/facebook.svg";
@@ -92,16 +93,14 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className="footer-collaborators">
-                        <img className="footer-collaborators-img" src={imgCollaboratorsDOMLogo} alt="Logo Missão com Saúde"/>
+                        <img className="footer-collaborators-img" src={imgCollaboratorsICNALogo} alt="Logo de Colaborador"/>
                     </div>
                 </div>
             </div>
             <Divider width={'95%'}  height={'1px'} color="var(--c-text-secundary)"/>
             <div className="footer-end-panel">
                 <img className="footer-logo" src={imgFooterLogo} alt="Logo Missão com Saúde"/>
-                <p className="footer-title-init">Missão</p>
-                <p className="footer-title-mid">com</p>
-                <p className="footer-title-end">Saúde</p>
+                <p className="footer-title-end">Missão com Saúde</p>
             </div>
             
             <div className="copyright-text">

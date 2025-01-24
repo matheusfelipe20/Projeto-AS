@@ -5,9 +5,13 @@
 
 .nav-home {
     display: flex;
-    padding: 20px;
+    padding: 20px 80px 10px 80px;
     position: relative;
-    justify-content: center;
+    justify-content: flex-start;
+}
+
+.nav-panel {
+    width: 100%;
 }
 
 .nav-login {
@@ -140,6 +144,11 @@ li:hover .nav-links-dropdown {
     color: var(--c-text-secundary);
 }
 
+.menu-toggle-button {
+    display: none; /* Botão desaparece */
+}
+
+
 
 /* Configuração para tela mobile */
 @media (max-width: 768px) {
@@ -150,7 +159,12 @@ li:hover .nav-links-dropdown {
 
     .logo a img {
         height: 40px;
-        margin-left: 0px;
+        margin-right: 5px;
+    }
+
+    .nav-home {
+        display: flex;
+        padding: 10px 20px 10px 20px;
     }
 
     .nav-links {
@@ -170,5 +184,18 @@ li:hover .nav-links-dropdown {
         font-size: 0.8rem;
         font-weight: 600;
         text-align: center;
+    }
+
+
+    .menu-toggle-button {
+        display: block; /* Botão aparece */
+    }
+
+    .nav-links-options {
+        display: none; /* Esconde menu por padrão */
+    }
+
+    .nav-links-options.open {
+        display: flex; /* Mostra menu ao abrir */
     }
 }

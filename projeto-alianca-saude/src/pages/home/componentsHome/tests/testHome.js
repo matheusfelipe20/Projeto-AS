@@ -10,14 +10,16 @@ import imgTestVocal from '../../../../assets/homepage/testVocal.png';
 const testHome = () => {
     return(
         <div className="testHome">
-            <p className="test-title">Viva Bem</p>
-            <p className="test-description">
-                Quer saber como está a sua saúde? Explore os testes abaixo para avaliar sua qualidade de vida 
-                e receber dicas práticas para aprimorar seu bem-estar. 
-            </p>
-            <p className="test-description test-obs">
-                Dê o primeiro passo para viver com mais equilíbrio e vitalidade!
-            </p>
+            <div className="test-panel">
+                <p className="test-title">Viva Bem</p>
+                <p className="test-description">
+                    Quer saber como está a sua saúde? Explore os testes abaixo para avaliar sua qualidade de vida 
+                    e receber dicas práticas para aprimorar seu bem-estar. 
+                </p>
+                <p className="test-description test-obs">
+                    Dê o primeiro passo para viver com mais equilíbrio e vitalidade!
+                </p>
+            </div>
             <div className="list-test">
                 <div className="test-banner">
                     <img className="test-banner-img" src={imgTestImc} alt="Imagem ilustrando calculando o peso"></img>
